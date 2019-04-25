@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	display: inline-block;
+}
+
+#my-image{
+	width: 5%;
+    border-radius: 25px;
+}
+
+.nav-list-1{
+	display: inline-block;
+	margin-top: 12px;
+    margin-left: 25px;
+}
+
+#header{
+	font-size: 32px;
+    text-transform: capitalize;
+    vertical-align: 15px;
+    margin-left: 12px;
+}
+
+.fasfa-bars{
+	font-size: 24px;
+    color: #B1B1B1;
+    margin-left: 33px;
+    vertical-align: 15px
+}
+
+.fasfa-search{
+	font-size: 15px;
+    color: #B1B1B1;
+    margin-left: 15px;
+    vertical-align: 17px
+}
+
+#user-search{
+	border: none;
+	outline: none;
+}
+
+.nav-list-2{
+	display: inline-block;
+    float: right;
+    margin-top: 14px;
+	margin-right: 49px;
+	word-spacing: 20px;
+}
+
+#paper-plane-icon{
+	width: 52px;
+    height: 52px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 17px;
+	background-color: #E9FAEA;
+	color: #5ECA65;
+	vertical-align: 20px;
+}
+
+#link-icon{
+	width: 52px;
+    height: 52px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 18px;
+    background-color: #E7F3FE;
+    color: #3090ED;
+    vertical-align: 20px;
+    transform: rotate(103deg);
+}
+
+#my-image{
+	width: 52px;
+    border-radius: 25px;
+}
+
+aside{
+    width: 283px;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+aside li{
+	width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 16px 39px;
+    word-spacing: 15px;
+}
+
+aside li:hover{
+	border-left: 5px solid #1A90F9;
+	background-color: #E7F3FF;
+	color: #1A90F9;
+}
+
+.fa-clone{
+    transform: rotate(90deg);
+}
+
+article{
+    width: 79%;
+    float: right;
+    background-color: #d6f0fe;
+}
+
+.article-notes{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+h2,table{
+   padding: 20px;
+}
+
+button{
+    float: right;
+    width: 16%;
+    height: 49px;
+    margin-top: -63px;
+    margin-right: 36px;
+    background-color: #00D74D;
+    color: #fefefe;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+}
+
+button:hover{
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+table{
+    width: 98%;
+    border-spacing: 0px 5px;
+    
+}
+
+tr{
+    
+}
+
+th{
+    font-weight: normal;
+    padding-left: 9px;
+    padding-left: 28px;
+    text-align: left;
+    color: #828689;
+}
+
+td{
+    background-color: rgb(255, 255, 255);
+    padding: 26px;
+
+}
+
+.center{
+    text-align: center !important;
+}

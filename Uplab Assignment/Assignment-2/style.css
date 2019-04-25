@@ -1,0 +1,314 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:#F7F7F7;
+
+ 
+}
+
+/* HEADER */
+.head{
+    text-align: center;
+    margin: 20px;
+
+
+}
+
+h1{
+    display: inline;
+}
+
+#menu-button{
+    font-size: 33px;
+    color: #09c693;
+    background: none;
+    border: none;
+    outline: none;
+    position: relative;
+    left: 470px;
+}
+ 
+#menu-button:hover{
+    background-color: #09c693;
+    color: #FFF;
+    width: 35px;
+    height: 35px;
+    font-size: 21px;
+    border-radius: 5px;
+}
+
+
+
+/* FORM */
+
+form{
+    height: 760px;
+}
+
+.main{
+    background-color: #ffffff;
+    width: 70%;
+    margin: 20px auto 20px auto;
+}
+
+.bar-1{
+    background-color: #09c693;
+    height: 100px;
+}
+
+.card-container{
+    padding-top: 18px;
+    width: 0px;
+    height: 0px;
+    padding-left: 20px;
+}
+.card{
+    width: 60px;
+    height: 60px;
+    background-color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 14px;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: #09c693;
+}
+
+.xy{
+    padding-top: 13px;
+    padding-left: 92px;
+    height: 0px;
+}
+
+#line-1{
+    color: #fff;
+    font: icon;
+    font-size: 15px;
+}
+
+#line-2{
+    color: #d6f1ea;
+    font-size: 12px;
+}
+
+
+.price{
+    text-align: right;
+    padding-right: 20px;
+}
+
+#pay-only{
+    text-transform: capitalize;
+    color: #d6f1ea;
+    font-size: 12px;
+}
+
+#price{
+    color: #fff;
+    font-size: 21px;
+}
+#heading{
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top:15px;
+}
+
+#heading-1{
+    width: 44%;
+    height: 37px;
+    padding: 10px;
+    border-bottom: 2px solid #d7c9c985;
+    margin-left: 12px;
+    display: inline-block;
+}
+
+#heading-2{
+    float: right;
+    width: 44%;
+    border-bottom: 2px solid #d7c9c985;
+    height: 37px;
+    padding: 8px;
+    margin-right: 15px;
+}
+
+#left-side{
+    width: 50%;
+    margin-left: 12px;
+    padding: 10px;
+}
+
+#right-side{
+    width: 50%;
+    margin-left: 12px;
+    padding: 10px;
+    padding-left: 39px;
+}
+
+#check{
+    background-color: #09c693;
+    color: #fff;
+    border: 2px solid #09c693;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+.note-3{
+    padding-left: 8px;
+}
+
+#input-fields{
+    padding-top: 15px;
+    display: flex;
+}
+
+#note-2{
+    width: 100%;
+}
+
+
+#card-pics{
+    padding-left: 112px;
+}
+
+.card-png{
+    width: 37px;
+}
+
+.inputs{
+    width: 100%;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #d7c9c9b3;
+    border-radius: 10px;
+    outline: none;
+}
+
+#card-input{
+   background-image: url(./images/card.png);
+   background-repeat: no-repeat;
+   background-position: 295px;
+}
+
+.mini-inputs{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #d7c9c9b3;
+    border-radius: 10px;
+    color: #757575;
+    outline: none;
+}
+
+.exp-zip{
+    position: relative;
+    left: 180px;
+    bottom: 59px;
+    outline: none;
+}
+
+#exp-year{
+    width: 160px;
+}
+
+.mini-inputs-main-container{
+    position: relative;
+    top: 25px;
+    font-weight: bold;
+}
+
+.ccv{
+    padding-top: 0;
+}
+
+#line{
+    width: 89%;
+    height: 2px;
+    background-color: #d7c9c9de;
+    margin: 25px;
+}
+
+#note-4{
+    display: flex;
+    width: 47%;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+.note-link{
+    color: #09c693;
+    text-decoration: none;
+}
+
+#pay{
+    position: relative;
+    left: 737px;
+    bottom: 19px;
+    width: 120px;
+    height: 44px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color:#09c693;
+}
+
+hr{
+    border-color: #d7c5c56b;
+    position: relative;
+    top: 25px;
+}
+
+#hand-icon{
+    width: 60px;
+    height: 60px;
+    background-color: #09c693;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    color: #ffff;
+    position: relative;
+    top: 55px;
+    display: inline-block;
+    left: 16px;
+}
+
+.fa-hand-holding-usd{
+    position: relative;
+    top: 10px;
+}
+
+#mini-container-note-1{
+    display: inline-block;
+    position: relative;
+    top: 75px;
+    left: 25px;
+}
+
+#mini-container-heading{
+    font-size: 23px;
+    color: #09c693;
+}
+
+#mini-container-note-2{
+    text-align: end;
+    position: relative;
+    right: 25px;
+}
+
+#offer{
+    font-size: 22px;
+    font-weight: bold;
+    color: #09c693;
+}

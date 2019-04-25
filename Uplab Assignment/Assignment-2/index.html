@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="head">
+        <h1>Choose payment option</h1>
+
+        <button id="menu-button"> <i class="fas fa-bars"></i></button>
+    </div>
+
+    <div class="main">
+
+        <div class="bar-1">
+
+            <div class="note">
+                <div class="card-container">
+                    <div class="card">
+                        <i class="far fa-credit-card"></i>
+                    </div>
+                </div>
+                <div class="lines">
+                    <div class="xy">
+                        <span id="line-1">
+                            Pay Now
+                        </span>
+                        <br>
+                        <span id="line-2">
+                            Get instant savings by paying now
+                        </span>
+                    </div>
+                    <div class="price">
+                        <span id="pay-only">
+                            pay only
+                        </span>
+                        <br>
+                        <span id=price>
+                            &#36;119.46
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div>
+            <form>
+                <div id="heading">
+                    <div id="heading-1">
+                        <span>credit card info</span>
+                    </div>
+                    <div id="heading-2">
+                        <span>billing address</span>
+                    </div>
+                </div>
+
+                <!-- INPUT FIELDS -->
+                <div id="input-fields">
+                    <div id="left-side">
+                        <div id="note-2">
+                            <span>Accepted payments</span>
+                            <span id="card-pics">
+                                <img src="./images/iconfinder_Visa-Curved_70599.png" alt="visa-card" class="card-png">
+
+                                <img src="./images/iconfinder_Mastercard-Curved_70593.png" alt="master-card" class="card-png">
+
+                                <img src="./images/iconfinder_Discover-Curved_70605.png" alt="discover-card" class="card-png">
+
+                                <img src="./images/iconfinder_American-Express-Curved_70583.png" alt="american-express-card"
+                                    class="card-png">
+                            </span>
+                        </div>
+                        <div class="inputs">
+                            <label for="card-name">Name Of Card*</label>
+                            <br>
+                            <input type="text" placeholder="Full Name">
+                        </div>
+
+                        <div class="inputs">
+                            <label for="card-number">Card Number*</label>
+                            <br>
+                            <input type="number" placeholder="1324-5678-9876-5432" id="card-input">
+                        </div>
+
+                        <div class="mini-inputs-main-container">
+                            <label for="exp-month">Exp Month*</label>
+                            <br>
+                            <select name="exp-month" id="exp-month" class="mini-inputs">
+                                <option value="November">Nov</option>
+                                <option value="December">DEC</option>
+                                <option value="January">Jan</option>
+                                <option value="Feberury">Feb</option>
+                            </select>
+
+                            <div class="exp-zip">
+                                <label for="exp-year">Exp Year*</label>
+                                <br>
+                                <select name="exp-year" id="exp-year" class="mini-inputs">
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="inputs ccv">
+                            <label for="cvv-number">CVV Number*</label>
+                            <br>
+                            <input type="number" placeholder="546">
+                        </div>
+                    </div>
+                    <div id="right-side">
+                        <div>
+                            <button id="check"><i class="fas fa-check"></i></button>
+                            <span class="note-3">Billing address same on the account</span>
+                        </div>
+                        <div class="inputs">
+                            <label for="u-address">Address*</label>
+                            <br>
+                            <input type="text" placeholder="1234 Billing Island Dr.">
+                        </div>
+                        <div class="inputs">
+
+                            <label for="u-city">City*</label>
+                            <br>
+                            <input type="text" placeholder="Sactamento">
+                        </div>
+                        <div class="mini-inputs-main-container">
+                            <label for="u-state">State*</label>
+                            <br>
+                            <select name="state-name" id="u-state" class="mini-inputs">
+                                <option value="California">CA</option>
+                                <option value="Las-vegas">LV</option>
+                                <option value="San-fresisco">SF</option>
+                                <option value="New-york">NY</option>
+                            </select>
+                            <div class="exp-zip">
+                                <label for="zip-code">Zip*</label>
+                                <br>
+                                <input type="number" placeholder="95758" class="mini-inputs">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="line"></div>
+
+                <div id="note-4">
+                    <button id="check"><i class="fas fa-check"></i></button>
+                    <p class="note-3">I agree to the <a class="note-link" href="terms">Terms & Conditions</a> and</span>
+                        <a class="note-link" href="privacypolicy">Privacy Policy</a> and certify that I am authorized
+                        to make a payment on this account.</p>
+                </div>
+                <button id="pay">Pay &#36;119.46</button>
+                <hr>
+                <div id="hand-icon">
+                    <i class="fas fa-hand-holding-usd"></i>
+                </div>
+                <p id="mini-container-note-1"><span id="mini-container-heading">Make an Offer</span> <br> Reduce your balance by making an offer</p>
+                <p id="mini-container-note-2">You can <br> <span id="offer">Save 10%</span></p>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

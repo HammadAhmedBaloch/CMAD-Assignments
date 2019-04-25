@@ -1,0 +1,111 @@
+body{
+    background-image: url(./images/bg.jpg);
+    width: 100%;
+    height:100%;
+
+    
+}
+
+#main-container{
+    width:90%;
+    background-color: #7BDAF8;
+    margin: 50px auto 50px auto;
+}
+
+.sub-container{
+    padding:5px;
+}
+
+.top-bar{
+    background: #4DCDF8;
+    height: 52px;
+    margin-bottom: 7px;
+}
+.top-bar p{
+    color: #ffff;
+    font-size: 22px;
+    padding: 17px;
+}
+
+.form-container{
+    background-color: rgb(255, 255, 255);
+    padding:50px;
+}
+
+.mini{
+    border: 4px solid #4DCDF8;
+    border-style: dashed;
+    margin: 0px auto 0px auto;
+    width: 87%;
+    height:222px ;
+}
+
+.containt{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#img{
+    width: 59px;
+    margin-bottom: -12px;
+}
+
+#note{
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: -9px;
+}
+
+#OR{
+    color: #ABABAB;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+#Browse{
+    margin-top: 0px;
+    width: 12%;
+    height: 34px;
+    background-color: #4DCDF8;
+    color: #ffff;
+    font-size: initial;
+    border-style: inherit;
+    border-radius: 6px;
+}
+
+.form-group{
+    text-transform: capitalize;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 35px;
+    text-align: center;
+}
+
+#company-name{
+    width: 67%;
+    height: 34px;
+    padding-left: 11px;
+    margin: 15px auto 15px 80px;
+}
+
+#VAT-number{
+    width: 67%;
+    height: 34px;
+    padding-left: 11px;
+    margin: 15px auto 15px 103px;
+}
+
+#Address{
+    width: 67%;
+    height: 34px;
+    padding-left: 11px;
+    margin: 15px auto 15px 135px
+}
+
+#other{
+    width: 67%;
+    height: 34px;
+    padding-left: 11px;
+    margin: 15px auto 0px 151px;
+}

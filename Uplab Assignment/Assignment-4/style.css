@@ -1,0 +1,243 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height:680px ;
+    background: -moz-linear-gradient(top, #2588f9 23%, #b3dcff 98%);
+    background: -webkit-linear-gradient(top, #2588f9 23%,#b3dcff 98%);
+    background: linear-gradient(to bottom, #2588f9 23%,#b3dcff 98%);
+}
+
+.nav-container{
+	width: 100%;
+    height: 48px;
+    background-color: #FBFDFF;
+    display: inline-flex;
+}
+
+.navbar-header{
+	padding: 14px;
+    padding-left: 61px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul{
+	display: inline-flex;
+    padding-left: 585px;
+    list-style-type: none;
+    padding-top: 18px;
+}
+
+.list{
+	padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    height: 49px;
+    padding-top: 19px;
+    margin-top: -19px;
+}
+
+.list:hover{
+    background-color: rgba(136, 191, 250, 0.897);
+    color: rgb(255, 255, 255);
+}
+
+a:link{
+	text-decoration: none;
+	color:#797979;
+}
+
+.sub-container{
+	width: 36%;
+    margin-top: 147px;
+	margin-left: 217px;
+}
+
+#button-container{
+	transform: rotate(-90deg);
+	width: 42px;
+    float: left;
+}
+
+#option-button{
+	width: 83px;
+    height: 39px;
+    border-radius: 10%;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background-color: #549be5;
+    border: none;
+    color: #EEF6FE
+}
+
+#heading{
+	font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+	text-transform: uppercase;
+	color: #EEF6FE;
+	margin-bottom: 30px
+}
+
+#note{
+	font-size: 15px;
+    text-align: justify;
+    color: #C3E2F9;
+}
+
+form{
+    width: 20%;
+    height: 302px;
+    float: right;
+    background-color: #fff;
+    margin-right: 124px;
+    margin-top: -226px;
+    border-radius: 2px;
+}
+
+#note-2{
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+
+#free{
+    font-weight: bold;
+    color: #368eeb;
+    font-size: 28px
+}
+
+input{
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-bottom: 2px solid #e9e9f2;
+    margin: 0px 22px 22px 22px;
+}
+
+#submit-form-button{
+    text-align: center;
+    width: 147px;
+    height: 30px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 50px;
+    background-color: #3291f6;
+    color: #fff;
+}
+
+/* Page-2 */
+
+.page-2-main-container{
+    width: 100%;
+    
+}
+
+#image-div{
+    height: 700px;
+    width: 100%;
+    background-image: url(./images/sabri-tuzcu-331970-unsplash.jpg);
+    background-size:cover;
+}
+
+#content{
+    color: #ffffff;
+    display: inline-block;
+    margin: 10em 0em 0em 28em;
+}
+
+.coming-soon{
+    font-family:'Raleway', sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+#time{
+    padding: 29px 0px 0px 11px;
+}
+
+.number{
+    font-size: 35px;
+    border-bottom: 1px solid;
+    margin-left: 40px;
+}
+
+.word{
+    position: relative;
+    left: 44px;
+    bottom: 21px;
+    font-family:'Raleway', sans-serif;
+}
+
+.days{
+    padding-left: 5px;
+}
+
+.hours{
+    padding-left: 44px;
+}
+
+.minutes{
+    padding-left: 24px;
+}
+
+.seconds{
+    padding-left: 20px;
+}
+
+#consumer-note{
+    font-family:'Raleway', sans-serif;
+    text-align: center;
+}
+
+#input-div{
+    width: 125%;
+    height: 42px;
+    margin-top: 25px;
+    background-color: #ffff;
+    border-radius: 50px;
+    box-sizing: border-box;
+    position: relative;
+    left: -50px;
+    padding: 10px 2px 0px 32px;
+}
+
+.input-email{
+    outline: none;
+    border: none;
+}
+
+#input-button{
+    position: absolute;
+    left: 373px;
+    bottom: 3px;
+    width: 134px;
+    height: 36px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #2196F3;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+#icons{
+    word-spacing: 15px;
+    font-size: 25px;
+    position: relative;
+    top: 213px;
+    left: 55px;
+}
