@@ -1,0 +1,1251 @@
+body {
+    background-color: #E9EBEE;
+}
+
+#header {
+    background-color: #4267B2;
+    width: 100%;
+    height: 42px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 7;
+}
+
+#fab-fa-facebook {
+    font-size: 31px;
+    padding-left: 61px;
+    padding-top: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#search-bar {
+    width: 440px;
+    height: 25px;
+    position: absolute;
+    top: 8px;
+    left: 100px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    padding-left: 8px;
+}
+
+#fas-fa-search {
+    background: none;
+    border: none;
+    position: absolute;
+    left: 505px;
+    top: 11px;
+    font-size: 16px;
+    color: #646D7A;
+    cursor: pointer;
+}
+
+#header-right-side {
+    color: #303030;
+    position: absolute;
+    right: 330px;
+    top: -1px;
+    cursor: pointer;
+}
+
+#friend-request {
+    width: 48px;
+}
+
+#fab-fa-facebook-messenger {
+    font-size: 24px;
+    position: absolute;
+    top: 12px;
+    left: 52px;
+}
+
+#fab-fa-facebook-messenger:hover {
+    color: white;
+}
+
+#fas-fa-globe-asia {
+    font-size: 22px;
+    position: absolute;
+    top: 13px;
+    left: 85px;
+    border-right: 1px solid #2137656b;
+    padding-right: 22px;
+}
+
+#fas-fa-globe-asia:hover {
+    color: white;
+}
+
+#fas-fa-question-circle {
+    font-size: 22px;
+    position: absolute;
+    top: 13px;
+    left: 147px;
+}
+
+#fas-fa-question-circle:hover {
+    color: white;
+}
+
+#fas-fa-sort-down {
+    font-size: 19px;
+    position: absolute;
+    top: 9px;
+    left: 184px;
+}
+
+#fas-fa-sort-down:hover {
+    color: white;
+}
+
+#home-page {
+    position: absolute;
+    right: 65px;
+    top: 11px;
+    color: white;
+    border-right: 1px solid #2137656b;
+    height: 22px;
+    border-left: 1px solid #2137656b;
+    padding: 0px 12px 0px;
+    background: none;
+    outline: none;
+    border-top: none;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+#my-pic {
+    width: 31px;
+    position: absolute;
+    right: 212px;
+    top: 7px;
+    border-radius: 50px
+}
+
+#profile {
+    height: 22px;
+    position: absolute;
+    right: 140px;
+    top: 11px;
+    color: white;
+    background: none;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+
+#home-page:hover, #profile:hover {
+    background-color: #3B5DA0;
+}
+
+#left-side {
+    position: fixed;
+    top: 42px;
+    width: 300px;
+    color: #1D2129;
+}
+
+#my-profile {
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    width: 183px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#my-pic-mini {
+    width: 25px;
+    border-radius: 20px;
+    position: absolute;
+    left: -25px;
+    top: -1px;
+}
+
+#my-profile-span {
+    padding: 0px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+}
+
+#my-profile #fas-fa-ellipsis-h {
+    color: #90949C;
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 4px
+}
+
+#my-profile:hover #fas-fa-ellipsis-h {
+    display: inline;
+}
+
+#my-profile:hover {
+    background-color: #F5F6F7;
+}
+
+#news-feed {
+    position: absolute;
+    top: 55px;
+    left: 45px;
+    width: 183px;
+    height: 24px;
+    background-color: #F5F6F7;
+    cursor: pointer;
+}
+
+#far-fa-newspaper {
+    color: #4267B2;
+    font-size: 22px;
+    position: absolute;
+    left: -25px;
+    top: 2px;
+}
+
+#news-feed-span {
+    padding: 0px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    font-weight: bold;
+}
+
+#news-feed #fas-fa-ellipsis-h {
+    color: #90949C;
+    position: absolute;
+    right: 10px;
+    top: 4px
+}
+
+#messenger {
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    width: 183px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#fab-fa-facebook-messenger-2 {
+    color: #0079FF;
+    font-size: 22px;
+    position: absolute;
+    left: -25px;
+    top: 2px;
+}
+
+#messenger-span {
+    padding: 0px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+}
+
+#messenger:hover {
+    background-color: #F5F6F7;
+}
+
+#watch {
+    position: absolute;
+    top: 125px;
+    left: 45px;
+    width: 183px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#fas-fa-video {
+    color: #0079FF;
+    font-size: 20px;
+    position: absolute;
+    left: -25px;
+    top: 2px;
+}
+
+#watch-span {
+    padding: 0px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+}
+
+#fas-fa-circle {
+    color: #FA3E3E;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    font-size: 8px;
+}
+
+#watch:hover {
+    background-color: #F5F6F7;
+}
+
+#shortcuts {
+    position: absolute;
+    top: 142px;
+    left: 20px;
+    width: 210px;
+    height: 153px;
+    cursor: pointer;
+}
+
+h5 {
+    color: #616770
+}
+
+#edit {
+    position: absolute;
+    top: 19px;
+    left: 177px;
+    text-decoration: none;
+    display: none;
+    color: #365899
+}
+
+#shortcuts:hover #edit {
+    display: inline;
+}
+
+#edit:hover {
+    text-decoration: underline;
+}
+
+#cmad {
+    position: absolute;
+    top: 50px;
+    left: 33px;
+    width: 183px;
+    height: 24px;
+}
+
+#cmad #fas-fa-users {
+    color: #424344;
+    font-size: 20px;
+    position: absolute;
+    left: -32px;
+    top: 2px;
+}
+
+#cmad-span {
+    padding: 0px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+}
+
+#cmad #fas-fa-ellipsis-h {
+    color: #90949C;
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 4px
+}
+
+#cmad:hover #fas-fa-ellipsis-h {
+    display: inline;
+}
+
+#cmad:hover {
+    background-color: #F5F6F7;
+}
+
+#AI {
+    position: absolute;
+    top: 83px;
+    left: 33px;
+    width: 183px;
+    height: 24px;
+}
+
+#AI #fas-fa-users {
+    color: #424344;
+    font-size: 20px;
+    position: absolute;
+    left: -32px;
+    top: 2px;
+}
+
+#AI-span {
+    padding: 0px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+}
+
+#AI #fas-fa-ellipsis-h {
+    color: #90949C;
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 4px
+}
+
+#AI:hover #fas-fa-ellipsis-h {
+    display: inline;
+}
+
+#AI:hover {
+    background-color: #F5F6F7;
+}
+
+#soft {
+    position: absolute;
+    top: 117px;
+    left: 33px;
+    width: 183px;
+    height: 24px;
+}
+
+#soft #fas-fa-users {
+    color: #424344;
+    font-size: 20px;
+    position: absolute;
+    left: -32px;
+    top: 2px;
+}
+
+#soft-span {
+    padding: 0px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+}
+
+#soft #fas-fa-ellipsis-h {
+    color: #90949C;
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 4px
+}
+
+#soft:hover #fas-fa-ellipsis-h {
+    display: inline;
+}
+
+#soft:hover {
+    background-color: #F5F6F7;
+}
+
+#shortcuts-see-more {
+    position: absolute;
+    top: 155px;
+    left: 9px;
+}
+
+#shortcuts-fas-fa-sort-down {
+    color: #90949C;
+}
+
+#shortcuts-see-more a {
+    padding-left: 19px;
+    font-size: 14px;
+    color: #365899;
+    text-decoration: none;
+}
+
+#shortcuts-see-more:hover a {
+    text-decoration: underline;
+}
+
+#explore {
+    position: absolute;
+    top: 315px;
+    left: 20px;
+    width: 210px;
+    height: 153px;
+    cursor: pointer;
+}
+
+#explore h5 {
+    color: #616770
+}
+
+#groups {
+    position: absolute;
+    top: 50px;
+    left: 33px;
+    width: 183px;
+    height: 24px;
+}
+
+#groups #fas-fa-users {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: -32px;
+    width: 25px;
+    height: 25px;
+    background-color: #3680F9;
+    padding-top: 7px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+#groups-span {
+    padding: 0px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+}
+
+#groups:hover {
+    background-color: #F5F6F7;
+}
+
+#pages {
+    position: absolute;
+    top: 83px;
+    left: 33px;
+    width: 183px;
+    height: 24px;
+}
+
+#pages #fab-fa-font-awesome-flag {
+    color: #F37B2B;
+    font-size: 20px;
+    position: absolute;
+    left: -27px;
+    top: 2px
+}
+
+#pages-span {
+    padding: 0px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+}
+
+#pages:hover {
+    background-color: #F5F6F7;
+}
+
+#calender {
+    position: absolute;
+    top: 117px;
+    left: 33px;
+    width: 183px;
+    height: 24px;
+}
+
+#calender #calender-pic {
+    position: absolute;
+    left: -32px;
+    width: 24px;
+}
+
+#calender-span {
+    padding: 0px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+}
+
+#calender:hover {
+    background-color: #F5F6F7;
+}
+
+#jobs {
+    position: absolute;
+    top: 150px;
+    left: 33px;
+    width: 183px;
+    height: 24px;
+}
+
+#jobs #beg-pic {
+    position: absolute;
+    left: -32px;
+    width: 24px;
+}
+
+#jobs-span {
+    padding: 0px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+}
+
+#jobs:hover {
+    background-color: #F5F6F7;
+}
+
+#explore-see-more {
+    position: absolute;
+    top: 185px;
+    left: 9px;
+}
+
+#explore-fas-fa-sort-down {
+    color: #90949C;
+}
+
+#explore-see-more a {
+    padding-left: 19px;
+    font-size: 14px;
+    color: #365899;
+    text-decoration: none;
+}
+
+#explore-see-more:hover a {
+    text-decoration: underline;
+}
+
+#create {
+    position: absolute;
+    top: 515px;
+    left: 20px;
+    width: 210px;
+    height: 80px;
+}
+
+#create a {
+    position: relative;
+    bottom: 15px;
+    padding-left: 19px;
+    font-size: 14px;
+    color: #365899;
+    text-decoration: none;
+}
+
+#a1:hover {
+    text-decoration: underline;
+}
+
+#a2:hover {
+    text-decoration: underline;
+}
+
+#a3:hover {
+    text-decoration: underline;
+}
+
+#a4:hover {
+    text-decoration: underline;
+}
+
+#right-side {
+    position: fixed;
+    right: 0px;
+    top: 42px;
+    border-left: 1px solid #c2c2c2;
+    width: 250px;
+    height: 608px
+}
+
+#Instant-games {
+    border-bottom: 1px solid #c2c2c2;
+    position: absolute;
+    left: 41px;
+    top: -21px;
+    width: 172px;
+    height: 126px;
+}
+
+#Instant-games h6 {
+    position: relative;
+    right: 38px;
+    color: #666666;
+}
+
+#Instant-games a {
+    position: absolute;
+    top: 23px;
+    left: 175px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+}
+
+#Instant-games a:hover {
+    text-decoration: underline;
+}
+
+#instant-icons {
+    width: 250px;
+    position: relative;
+    right: 41px;
+    padding-left: 28px;
+    bottom: 13px;
+}
+
+#instant-icons :hover, #your-icons :hover {
+    color: rgb(102, 102, 105);
+    cursor: pointer;
+}
+
+#Your-games {
+    position: absolute;
+    top: 97px;
+    width: 213px;
+}
+
+#Your-games h6 {
+    position: relative;
+    left: 3px;
+    color: #666666;
+}
+
+#Your-games a {
+    position: absolute;
+    top: 26px;
+    left: 216px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+}
+
+#Your-games a:hover {
+    text-decoration: underline;
+}
+
+#your-icons {
+    border-bottom: 1px solid #c2c2c2;
+    width: 220px;
+    padding-left: 28px;
+    position: relative;
+    bottom: 13px
+}
+
+#Instant-games img, #Your-games img {
+    width: 60px;
+    margin-right: 5px;
+    border: none;
+    box-sizing: border-box;
+    height: 60px;
+    padding: 2px;
+    border-radius: 37px;
+}
+
+#instant-icons img:hover, #your-icons img:hover {
+    border: 2px solid #719DE5;
+}
+
+#instant-left {
+    position: absolute;
+    right: 260px;
+    top: 20px;
+    font-size: 22px;
+    color: rgb(150, 153, 160);
+}
+
+#instant-right {
+    position: absolute;
+    left: 232px;
+    top: 20px;
+    font-size: 22px;
+    color: rgb(150, 153, 160);
+}
+
+#your-left {
+    position: absolute;
+    right: 230px;
+    top: 20px;
+    font-size: 22px;
+    color: rgb(150, 153, 160);
+}
+
+#your-right {
+    position: absolute;
+    left: 235px;
+    top: 20px;
+    font-size: 22px;
+    color: rgb(150, 153, 160);
+}
+
+#create-post {
+    position: absolute;
+    left: 272px;
+    top: 53px;
+    width: 500px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDFE2;
+}
+
+#create-post-sub-1 {
+    background-color: #f1f1f1;
+    height: 33px;
+    border: 1px solid #DDDFE2;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #4B4F56;
+    cursor: pointer;
+}
+
+#my-pic-create-post {
+    width: 42px;
+    border-radius: 23px;
+    position: absolute;
+    top: 45px;
+    left: 8px;
+    cursor: pointer;
+}
+
+#captions {
+    width: 436px;
+    height: 65px;
+    position: absolute;
+    left: 60px;
+    top: 33px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+#create-post-icons {
+    position: absolute;
+    top: 107px;
+    left: 25px;
+    width: 440px;
+    padding-left: 8px;
+    border-top: 1px solid #c8cbcf;
+}
+
+#far-fa-image {
+    color: #09db19;
+    font-size: 23px;
+    position: relative;
+    top: 3px;
+    right: 5px;
+}
+
+#create-icons-1 {
+    display: inline-block;
+    width: 125px;
+    height: 32px;
+    padding-top: 2px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    background-color: #f4f5f7;
+}
+
+#create-icons-2 {
+    display: inline-block;
+    width: 125px;
+    height: 32px;
+    padding-top: 2px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 4px;
+    left: 130px;
+    background-color: #f4f5f7;
+}
+
+#create-icons-2-span {
+    position: relative;
+    top: 3px;
+}
+
+#create-icons-3 {
+    display: inline-block;
+    width: 125px;
+    height: 32px;
+    padding-top: 2px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 4px;
+    left: 260px;
+    background-color: #f4f5f7;
+}
+
+#create-icons-4 {
+    display: inline-block;
+    width: 46px;
+    height: 32px;
+    padding-top: 9px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 4px;
+    left: 398px;
+    background-color: #f4f5f7;
+}
+
+#create-icons-3-span {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+
+#fas-fa-user-tag {
+    color: #4CADF1;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+    right: 1px
+}
+
+#smile-png {
+    width: 30px;
+    position: absolute;
+    left: 1px;
+}
+
+#create-icons-1:hover, #create-icons-2:hover, #create-icons-3:hover, #create-icons-4:hover {
+    background-color: #EBEDF0;
+    cursor: pointer;
+}
+
+#chats {
+    position: absolute;
+    top: 227px;
+    height: 300px;
+    width: 250px;
+}
+
+.chat-pics {
+    width: 45px;
+    height: 45px;
+    border-radius: 24px;
+}
+
+#chats div {
+    padding: 2.5px 10px;
+    cursor: pointer;
+}
+
+#mark-span {
+    position: absolute;
+    top: 18px;
+    left: 62px;
+    word-spacing: 3px;
+    font-size: 15px;
+}
+
+#imran-span {
+    position: absolute;
+    top: 75px;
+    left: 62px;
+    word-spacing: 3px;
+    font-size: 15px;
+}
+
+#jeff-span {
+    position: absolute;
+    top: 130px;
+    left: 62px;
+    word-spacing: 3px;
+    font-size: 15px
+}
+
+#ronald-span {
+    position: absolute;
+    top: 187px;
+    left: 62px;
+    word-spacing: 3px;
+    font-size: 15px;
+}
+
+#fas-fa-circle-mark {
+    position: absolute;
+    right: 10px;
+    top: 22px;
+    font-size: 8px;
+    color: #4BB935;
+}
+
+#fas-fa-circle-imran {
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    font-size: 8px;
+    color: #4BB935;
+}
+
+#fas-fa-circle-jeff {
+    position: absolute;
+    right: 10px;
+    top: 135px;
+    font-size: 8px;
+    color: #4BB935;
+}
+
+#fas-fa-circle-ronald {
+    position: absolute;
+    right: 10px;
+    top: 193px;
+    font-size: 8px;
+    color: #4BB935;
+}
+
+#chats div:hover {
+    background-color: #DDDFE2;
+}
+
+#tool-bar {
+    position: absolute;
+    bottom: 24px;
+    background-color: #F5F6F7;
+    height: 28px;
+}
+
+#tool-search {
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    color: #a7acb0;
+}
+
+#tool-bar-search {
+    border: none;
+    outline: none;
+    width: 159px;
+    margin-left: 23px;
+    padding-top: 6px;
+}
+
+#fas-fa-cog, #far-fa-edit, #fas-fa-user-friends {
+    color: #a7acb0;
+    cursor: pointer;
+}
+
+#fas-fa-cog:hover, #far-fa-edit:hover, #fas-fa-user-friends:hover {
+    color: #818486;
+}
+
+.contents {
+    width: 500px;
+    height: 722px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDFE2;
+}
+
+#content-1 {
+    position: absolute;
+    top: 222px;
+    left: 272px;
+}
+
+.content-mini-pic {
+    width: 42px;
+    position: relative;
+    top: 12px;
+    left: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.content-disply-pic {
+    width: 500px;
+    position: relative;
+    top: 20px;
+}
+
+.contents-span {
+    position: relative;
+    left: 13px;
+    bottom: 12px;
+    font-weight: bold;
+    color: #365899;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contents-time {
+    position: relative;
+    right: 129px;
+    top: 4px;
+    font-size: 13px;
+    color: #616770;
+    cursor: pointer;
+}
+
+.fa-ellipsis-h-contents {
+    position: relative;
+    left: 305px;
+    bottom: 12px;
+    font-size: 18px;
+    color: #979CA4;
+    cursor: pointer;
+    
+}
+
+.emotions {
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+
+.emotions .fa-thumbs-up {
+    color: white;
+    background-color: #2C93FC;
+    width: 16px;
+    height: 16px;
+    padding: 4px 0px 0px 5px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.fa-heart {
+    color: white;
+    background-color: #EA2541;
+    width: 16px;
+    height: 16px;
+    padding: 4.5px 0px 0px 4.5px;
+    border-radius: 20px;
+    font-size: 11px
+}
+
+.fa-surprise {
+    color: #80370E;
+    background-color: #FEDC5E;
+    width: 18px;
+    height: 20px;
+    padding: 3px 0px 0px 3.5px;
+    border-radius: 20px;
+    font-size: 16px;
+    position: relative;
+    top: 0.5px;
+}
+
+.comment-div {
+    width: 475px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    border-top: 1px solid #DADDE1;
+}
+
+.comment-div .fa-thumbs-up {
+    position: relative;
+    top: 20px;
+    left: 70px;
+    color: #696F78;
+    cursor: pointer;
+}
+
+.like {
+    position: relative;
+    top: 20px;
+    left: 70px;
+    color: #696F78;
+    cursor: pointer;
+}
+
+.fa-comment-alt {
+    position: relative;
+    top: 20px;
+    left: 255px;
+    color: #696F78;
+    cursor: pointer;
+}
+
+.comment {
+    position: relative;
+    top: 18px;
+    left: 259px;
+    color: #696F78;
+    cursor: pointer;
+}
+.comment-area{
+    position: relative;
+    top: 70px;
+    border-top: 1px solid #DDDFE2;
+    width: 500px;
+}
+.comment-area img{
+    width: 40px;
+    border-radius: 20px;
+    position: relative;
+    top: 8px;
+    left: 5px;
+    cursor: pointer;
+}
+.edit-area{
+    width: 438px;
+    height: 34px;
+    display: inline-block;
+    position: relative;
+    bottom: 14px;
+    left: 11px;
+    border: 1px solid #CCD0D5;
+    border-radius: 20px;
+    background-color: #F2F3F5;
+}
+.comment-area input{
+    width: 345px;
+    height: 16px;
+    position: relative;
+    top: 5px;
+    left: 6px;
+    padding-top: 4px;
+    padding-left: 5px;
+    border: none;
+    background-color: #F2F3F5;
+    outline: none;
+}
+.fa-smile{
+    font-size: 18px;
+    color: #acb1b7;
+    position: relative;
+    top: 6px;
+    cursor: pointer;
+}
+.fa-camera{
+    font-size: 18px;
+    color: #acb1b7;
+    position: relative;
+    top: 6px;
+    left: 2px;
+    cursor: pointer;
+}
+.gif{
+    width: 28px;
+    font-size: 13px;
+    color: #acb1b7;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    border: 1px solid #acb1b7;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px 0px 0px 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#content-2{
+    position: absolute;
+    top: 962px;
+    left: 272px;
+    height: 749px;
+}
+.content-2-time{
+    position: relative;
+    right: 78px;
+    top: 4px;
+    font-size: 13px;
+    color: #616770;
+    cursor: pointer;
+}
+.fa-ellipsis-h-content-2 {
+    position: relative;
+    left: 355px;
+    bottom: 12px;
+    font-size: 18px;
+    color: #979CA4;
+    cursor: pointer;
+    
+}
