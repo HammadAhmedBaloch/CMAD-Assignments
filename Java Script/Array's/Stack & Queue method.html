@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		//simple array method
+		var cities = ["Atlanta", "Baltimore", "Chicago", "Denver", "Los Angeles", "Seattle"];
+		alert("Welcome to " + cities[3]);
+
+		/*Using "Stack (A stack is a last in, first out (LIFO) abstract data type and data structure.)" Method;
+		 1. (".pop"= Remove last value from an Array)
+		 2. (".push"= Add values(one or more) in the end of Array)*/
+		  
+		var cities = ["Karachi", "Lahore", "Islamabad", "Peshwar"];
+
+		cities[4] = "Hyderabad";
+		cities.pop();
+		cities.push("Sawat", "Sukkar");
+
+		alert(cities[0]);
+		alert(cities[1]);
+		alert(cities[2]);
+		alert(cities[3]);
+		alert(cities[4]);
+		alert(cities[5]);
+
+		/*Using "Queue (A queue is an ordered, first-in-first-out data structure.)" Method;
+		1. (".shift"= Remove first value from Array)
+		2. (".unshift"= Add values(one or more) in the start of Array)}*/
+
+		var cities = ["Islamabad", "Peshwar", "Sawat", "Sukkar"];
+
+		cities[4] = "Hyderabad";
+		cities.shift();
+		cities.unshift("Karachi", "Lahore",);
+
+		alert(cities[0]);
+		alert(cities[1]);
+		alert(cities[2]);
+		alert(cities[3]);
+		alert(cities[4]);
+		alert(cities[5]);
+	</script>
+</body>
+</html>

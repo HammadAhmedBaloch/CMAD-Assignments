@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		//Q4:
+		function calculation(num1, operator, num2) {
+			num1 = Number(prompt("Enter a Number"));
+			operator = prompt("Enter operator : +, -, /, %");
+			num2 = Number(prompt("Enter a Number"));
+
+			if (operator === "+") {
+				var result = num1 + num2;
+				alert(result);
+
+
+			} else if (operator === "-") {
+				var result = num1 - num2;
+				alert(result);
+
+
+			} else if (operator === "/") {
+				var result = num1 / num2;
+				alert(result);
+
+
+			} else if (operator === "%") {
+				var result = num1 % num2
+				alert(num1 % num2);
+
+
+			} else {
+				alert("Please enter valid operator");
+			}
+
+			
+			return result;
+
+
+		}
+		//calculation();
+
+
+
+		//Q5:
+		function squareValue(Square) {
+			
+			var squareValue = Math.pow(Square, 2);
+			alert("Square value of " + Square + " is " + squareValue);
+
+
+		}
+		squareValue(calculation());
+
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		function checkPalindrome(userInput) {
+
+			userInput = prompt("Enter a word to check  is 'Palindrome' or not !! ");
+			userInput = (userInput === userInput.split("").reverse().join("")) ? alert(userInput + " is 'Palindrome' :)") : alert(userInput + " is not 'Palindrome' :(");
+			return userInput;
+
+		}
+		checkPalindrome();
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		//splice Method
+		var cities = ["Karachi", "Lahore", "Islamabad", "Peshwar", "Hyderabad", "Sukkar"];
+
+		cities.splice(2, 3, "pig", "duck", "emu");
+
+		alert(cities[0]);
+		alert(cities[1]);
+		alert(cities[2]);
+		alert(cities[3]);
+		alert(cities[4]);
+		alert(cities[5]);
+		alert(cities);
+
+		//slice Method
+		var pets = ["dog", "cat", "fly", "bug", "ox"];
+		alert(pets);
+		var noPet = pets.slice(2, 4);
+		alert(noPet);
+
+
+	</script>
+</body>
+
+</html>

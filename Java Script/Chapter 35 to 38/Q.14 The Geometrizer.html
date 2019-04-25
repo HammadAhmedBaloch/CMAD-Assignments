@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<script>
+
+    function calcCircumference(radius) {
+        /*Math.PI:
+        The Math.PI property represents the ratio of the circumference of a circle to its diameter, approximately 3.14159. The following function uses Math.PI to calculate the circumference of a circle with a passed radius.
+        π = Math.PI , r = radius . */
+        var circumference = (2 * Math.PI * radius).toFixed(2);
+        document.write("The circumference is  = " + circumference + " by using this formula 2πr " + "<br>");
+        var area = (Math.pow(radius,2)*Math.PI).toFixed(2);
+        document.write("The area is = " + area  + " by using this formula πr" + "<sup> 2 </sup >");
+    }
+    calcCircumference(2);
+</script>
+</body>
+
+</html>

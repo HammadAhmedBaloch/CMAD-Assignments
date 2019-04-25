@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<script>
+
+		var stdntName = prompt("Please Enter Your Name");
+		var stdntMarks = Number(prompt("please Enter Your Persentage"));
+
+		if (stdntMarks >= 80){
+			alert("A+");
+			if (stdntMarks >= 90){
+				alert("Reward Rs. 10000");
+			}
+			else if (stdntMarks >= 85){
+				alert("Reward Rs. 5000");
+			}
+			else{
+				alert("Keep it UP")
+			}
+		}
+		else if (stdntMarks >= 70){
+			alert("A");
+		}
+		else if (stdntMarks >= 61){
+			alert("B");
+		}
+		else if (stdntMarks >= 50){
+			alert("C");
+		}
+		else{
+			alert("FAIL!!")
+		}
+
+
+	</script>
+</head>
+
+<body>
+</body>
+
+</html>

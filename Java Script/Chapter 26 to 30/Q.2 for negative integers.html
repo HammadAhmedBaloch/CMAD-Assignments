@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		var userInput = Number(prompt("Enter your number"));
+		
+		if (userInput === -Math.abs(userInput)) {
+
+			document.write("Number:" + " " + userInput + "<br>" + "<br>" + "Round off value:" + " " + Math.round(userInput) + "<br>" + "<br>" + "Floor value:" + " " + Math.floor(userInput) + "<br>" + "<br>" + "Ceil value:" + " " + Math.ceil(userInput));
+		}else{
+			alert("Enter negative integers");
+		}
+
+	</script>
+</body>
+
+</html>

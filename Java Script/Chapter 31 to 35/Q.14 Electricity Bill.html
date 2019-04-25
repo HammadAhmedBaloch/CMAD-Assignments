@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		var userName = prompt("Enter your name");
+		userName = userName.slice(0, 1).toUpperCase() + userName.slice(1).toLowerCase();
+
+		var monthsName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "Nevember", "December"];
+		var currentDate = new Date();
+		var currentMonth = currentDate.getMonth();
+		currentMonth = monthsName[currentMonth];
+
+		var units = Math.random() * 1000 + 100;
+		units = Math.floor(units);
+		var perUnit = 16;
+		var netAmount = units * perUnit;
+		var surcharge = 350;
+		var afterDueDate = netAmount + surcharge
+		
+
+		document.write("<h1>K-Electric Bill</h1> " + "Customer Name : " + userName.bold() + "<br>" + "Month : " + currentMonth.bold() + "<br>" + "Number of units : " + units.toString().bold() + "<br>" + "Charges per unit : " + perUnit.toString().bold() + "<br>" + " Net Amount Payable (within Due Date) : " + netAmount.toString().bold() + "<br>"  + " Late Payment Surcharge : " + surcharge.toString().bold() + "<br>" + "Gross Amount Payable (after Due Date) : " + afterDueDate.toString().bold());
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function checkOccurrance(str1, str2) {
+
+            str1 = prompt("first sentence . . .")
+            str2 = prompt("second sentence . . .")
+            var count = 0;
+            // var getValue = [];
+            for (var i = 0; i < str1.length; i++) {
+
+                for (var j = 0; j < str2.length; j++) {
+
+                    if (str1[i] === str2[j]) {
+                        count++;
+
+                        /* This method shows letters occurrance in two strings:
+                          getValue.push(str1[i]);*/
+
+
+                    }
+                }
+            }
+            return count++;
+        }
+        alert(checkOccurrance());
+
+
+
+
+    </script>
+</body>
+
+</html>

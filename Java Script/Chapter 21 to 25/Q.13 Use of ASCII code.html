@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		//Use ASCII table for any special symbol;
+		var userName = prompt("Enter VALID User Name").toLowerCase();
+		var condition = true;
+		for (var i = 0; i < userName.length; i++) {
+			if((userName[i] >= String.fromCharCode(33) && userName[i] <= String.fromCharCode(47) ) || (userName[i] >= String.fromCharCode(58) && userName[i] <= String.fromCharCode(64) ) ||(userName[i] >= String.fromCharCode(91) && userName[i] <= String.fromCharCode(96) ) || (userName[i] >= String.fromCharCode(123) && userName[i] <= String.fromCharCode(126) )) {
+				alert(userName + " " + "is not a valid user name");
+				condition = false;
+				break;
+			}
+		}
+		if (condition === true) {
+			alert(userName + " " + "is valid name");
+		}
+		
+		
+		
+		
+
+		
+	</script>
+</body>
+
+</html>

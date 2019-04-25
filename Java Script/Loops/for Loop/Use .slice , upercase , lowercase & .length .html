@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		var firstName = prompt("Enter Your First Name");
+		var lastName = prompt("Enter Your Last Name");
+
+		//Copy the  element of index 0 to  before 1 but not 1 from firstName & lastName variable :
+		var firstNameFirstLetter = firstName.slice(0,1);
+		var lastNameFirstLetter = lastName.slice(0,1);
+		
+		//Copy the elements from index 1 to the end: 
+		var otherLettersFirstName = firstName.slice(1);
+		var otherLettersLastName = lastName.slice(1);
+		var fullName = firstNameFirstLetter.toUpperCase() + otherLettersFirstName.toLocaleLowerCase() +  " " + lastNameFirstLetter.toUpperCase() + otherLettersLastName.toLocaleLowerCase();
+		alert (fullName + " " + "Welcome TO Our Page");
+		var favMobile = prompt("Enter Mobile Name ");
+		document.write("My Favorite Phone is : " + favMobile + "<br>");
+		document.write("Length Of string :  "+ favMobile.length );
+
+		
+		
+
+	</script>
+</body>
+
+</html>

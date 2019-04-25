@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<title>Document</title>
+</head>
+<style>
+	body {
+		background-color: rgb(78, 78, 78);
+	}
+
+	#box {
+		width: 150px;
+		height: 100px;
+		background-color: snow;
+		box-sizing: border-box;
+		font-size: 90px;
+		text-align: center;
+		border-radius: 10px;
+		position: absolute;
+		left: 600px;
+		top: 160px;
+	}
+
+	#reset {
+		font-size: 41px;
+		background: none;
+		border: none;
+		outline: none;
+		position: absolute;
+		left: 60%;
+		top: 30%;
+	}
+
+	#count {
+		font-size: 41px;
+		background: none;
+		border: none;
+		outline: none;
+		position: absolute;
+		left: 35%;
+		top: 30%;
+	}
+	button :active{
+		color:rgba(255, 255, 255, 0.829);
+	}
+</style>
+
+<body>
+	<div id="box">
+		0
+	</div>
+	
+	<button id="count" onclick="counter(id)"><i class="fas fa-plus-circle"></i></button>
+	<button id="reset" onclick="counter()"><i class="fas fa-redo-alt"></i></button>
+	<script>
+		var count = 0;
+		function counter(check) {
+			(check === 'count') ?
+				(count++ ,
+					document.getElementById("box").innerHTML = count) :
+				(count = 0,
+					document.getElementById("box").innerHTML = count);
+		}
+	</script>
+</body>
+
+</html>

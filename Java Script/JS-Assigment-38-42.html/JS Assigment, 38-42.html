@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Js chpt 38-42 Assigment 1
+
+        // var a = Number(prompt('Get power of any numeric value!'));
+        // function showPow(a) {
+        //     var c = Math.pow(a, 2);
+        //     alert(c);
+        // }
+        // showPow(a);
+
+
+        // Js chpt 38-42 Assigment 2
+
+        // var year = Number(prompt('Enter the year'));
+        // function checkLeapYear(year) {
+        //     if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
+        //         alert(year + ' is a leap year!');
+        //     } else {
+        //         alert(year + ' is not a leap year!')
+        //     }
+        // }
+        // checkLeapYear(year);
+
+
+        // Js chpt 38-42 Assigment 3 
+
+        // var a = Number(prompt('Enter the value "A"'));
+        // var b = Number(prompt('Enter the value "B"'));
+        // var c = Number(prompt('Enter the value "C"'));
+        // function calculateArea(a, b, c) {
+        //     var s = (a + b + c) / 2;
+        //     return s;
+        // }
+        // function triangle(a, b, c) {
+        //     var s = calculateArea(a, b, c);
+        //     var area = s * (s - a) * (s - b) * (s - c);
+        //     alert(area);
+        // }
+        // triangle(a, b, c);
+
+
+        // Js chpt 38-42 Assigment 4    
+
+        function showResult() {
+            var subject01 = Number(prompt('Subject English enter your obtained number!'));
+            var subject02 = Number(prompt('Subject Math enter your obtained number!'));
+            var subject03 = Number(prompt('Subject Urdu enter your obtained number!'));
+            var average = getAverage(subject01, subject02, subject03);
+            console.log(average);
+            var persentage = getPercentage(subject01, subject02, subject03);
+            alert('Total Mark Average is ' + average);
+            alert('Your Percentage is ' + persentage + '%');
+        }
+        function getAverage(a, b, c) {
+            var d = a + b + c;
+            var f = d / 3;
+            return f;
+        }
+        function getPercentage(a, b, c) {
+            var d = a + b + c;
+            var f = d * 3 / 100;
+            return f;
+         }
+         showResult();
+
+
+        // Js chpt 38-42 Assigment 5
+
+        // function showIndex() {
+        //     var name = prompt('enter your name!');
+        //     var character = prompt(name + '\nenter the one character from your name\nfor the check index of character')
+        //     var c = name.indexOf(character);
+        //     alert(c);
+        // }
+        // showIndex();
+
+
+        // Js chpt 38-42 Assigment 6    
+
+        // var peragraph = 'Pleases read this application and give me gratuity'
+        // alert(peragraph);
+
+        // function removeVowels(a) {
+        //     var c = a.replace(/[aeiou]/g, "");
+        //     return c;
+        // }
+        // var withVowels = removeVowels(peragraph);
+        // alert(withVowels);
+
+
+        // Js chpt 38-42 Assigment 7  panding...
+
+
+
+        // Js chpt 38-42 Assigment 8   
+
+        // var user = Number(prompt('Enter value in kiloMetre'));
+        // function mainFuction(user) {
+        //     function kmToMetre(user) {
+        //         var convert = user * 1000;
+        //         alert(user + ' Kilometres = ' + convert + ' metres');
+        //     }
+        //     function kmToFeets(user) {
+        //         var convert = user * 3280.84;
+        //         alert(user + ' Kilometres = ' + convert + ' Feets');
+        //     }
+        //     function kmToInches(user) {
+        //         var convert = user * 39370.1;
+        //         alert(user + ' Kilometres = ' + convert + ' Inches');
+        //     }
+        //     function kmToCentimetre(user) {
+        //         var convert = user * 100000;
+        //         alert(user + ' Kilometres = ' + convert + ' Centimetre');
+        //     }
+        //     kmToMetre(user);
+        //     kmToFeets(user);
+        //     kmToInches(user);
+        //     kmToCentimetre(user);
+        // }
+        // mainFuction(user);
+
+
+        // Js chpt 38-42 Assigment 9
+
+        // var user = Number(prompt('Enter the Hours'));
+        // function overTime(a) {
+        //     var c = user - 40;
+        //     if (c > 0) {
+        //         c = 12 * Math.floor(c);
+        //         alert(c);
+        //     } else {
+        //         alert('noting');
+        //     }
+        // }
+        // overTime(user);
+
+
+        // Js chpt 38-42 Assigment 10   
+
+        // var user = Number(prompt('Enter the Amount'));
+        // function cashier(user) {
+        //     var hundred = Math.floor(user / 100);
+        //     var fifty = Math.floor((user - (hundred * 100)) / 50);
+        //     var ten = Math.floor((user - ((hundred * 100) + (fifty * 50))) / 10);
+        //     var result = 'hundred: ' + hundred + '\n' + 'fifty: ' + fifty + '\n' + 'ten: ' + ten;
+        //     alert(result)
+        // }
+        // cashier(user);
+
+    </script>
+</body>
+
+</html>

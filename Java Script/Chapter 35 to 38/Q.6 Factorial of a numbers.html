@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		/*
+		Ternary operator(?):
+		 Ternary operators have three basic parts. The first part is the condition. The condition goes in parentheses. After a question mark, there is a bit of code to perform if the conditional is true. Then after a colon, you need to place what will happen if the operator is false. All three sections must be completed.
+		 OR
+		The ternary operator, or conditional operator, takes three arguments and is basically a shortened way of writing an if-else statement.*/
+
+		var num1 = Number(prompt("Enter a number and get it's factorial value"));
+
+		function factorial(num2) {
+
+			var result = (num2 === 1) ? 1 : num2 * factorial(num2 - 1);
+			return result;
+		}
+		alert(factorial(num1));
+
+
+
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+
+		function calculateHypotenuse(base, perpendicular) {
+
+			base = Number(prompt('Enter "Base" value'));
+			perpendicular = Number(prompt('Enter "Perpendicular" value'));
+			alert("Base = " + base + ",  Perpendicular = " + perpendicular);
+
+			var hypotenuse = Math.pow(base, 2) + Math.pow(perpendicular, 2);
+			alert("Square value of 'Base' + 'Perpendicular' =" + hypotenuse);
+			calculateSquare(hypotenuse);
+			return hypotenuse;
+
+			function calculateSquare(squareValue) {
+
+				squareValue = Math.pow(hypotenuse, 2);
+
+				alert("Square value of 'Hypotenuse' = " + squareValue);
+
+			}
+
+		}
+		calculateHypotenuse();
+
+	</script>
+</body>
+
+</html>

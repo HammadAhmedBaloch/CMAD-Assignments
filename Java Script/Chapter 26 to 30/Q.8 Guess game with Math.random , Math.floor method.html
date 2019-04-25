@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		var usrNum = prompt("Enter any  'Random Number' between '1 to 10' you have three chances");
+		var a = Math.random();
+		var range = (a * 10) + 1;
+		range = Math.floor(range);
+		var condition = false;
+
+		for (var i = 0; i < 10; i++) {
+			if (usrNum === range) {
+				condition = true;
+				alert("Congratulaion you WON !!");
+				break
+
+			} else if (condition === false && i < 2) {
+				alert("SOORY TRY AGAIN :(");
+				var nextTry = prompt("Please try again");
+
+			}
+
+		}
+		if (condition === false) {
+			alert("G A M E    O V E R !! correct answer is" + " " + range);
+			var usrTryAgain = prompt("If you want to play again press 'Y'").toLowerCase();
+			if (usrTryAgain === "y") {
+				location.reload();
+			}
+		}
+
+
+	</script>
+</body>
+
+</html>

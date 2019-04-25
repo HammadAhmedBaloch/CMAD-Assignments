@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		var availableItems = ["Cake", "Apple pie", "Cookie", "Chips", "Patties"];
+		var userInput = prompt("Welcom to 'THE BAKERZ'.What do you want to order ?");
+		var firstChar = userInput.slice(0, 1);
+		firstChar = firstChar.toUpperCase();
+		var otherChar = userInput.slice(1);
+		otherChar = otherChar.toLowerCase();
+		userInput = firstChar + otherChar;
+		var condition = false;
+
+		for (var i = 0; i < availableItems.length; i++) {
+			if (userInput === availableItems[i]) {
+				alert("Here is your" + " " + userInput);
+				condition = true;
+				break;
+			}
+		}
+		if (condition === false) {
+			alert("SORRY" + " " + userInput + " " + "is not available");
+		}
+
+
+
+
+	</script>
+</body>
+
+</html>

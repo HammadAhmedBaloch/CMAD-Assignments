@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		//Q1:
+		var currentDate = new Date();
+		alert(currentDate);
+
+		//Q2:
+		var monthsName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "Nevember", "December"];
+
+		var currentMonth = currentDate.getMonth();
+		currentMonth = monthsName[currentMonth];
+		alert("Current month is " + ": " + currentMonth);
+
+		//Q3:
+		var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+		var currentDay = currentDate.getDay();
+		currentDay = weekDays[currentDay];
+		var currentDayShort = currentDay.slice(0, 3);
+		alert("Current day is " + ": " + currentDayShort);
+
+		//Q4:
+		if (currentDate === weekDays[0] || currentDate === weekDays[6]) {
+			alert("It's FUN Day . . . !!");
+		} else {
+			alert("It's " + currentDay);
+		}
+
+		//Q5:
+		if (currentDate.getDate() < 16) {
+			alert("First fifteen days of the month");
+
+		} else {
+			alert("Last days of the month");
+		}
+
+		//Q6:
+		var elapsedTime = currentDate.getTime();
+		var convertMillisecondsInMinutes = Math.round(elapsedTime / 60000);
+		document.write("Current Date : " + currentDate + "<hr>" + "<hr>" + "Elapsed milliseconds since January 1, 1970 : " + elapsedTime + "<hr>" + "<hr>" + "Elapsed minutes since January 1, 1970 : " + convertMillisecondsInMinutes);
+
+
+
+
+	</script>
+</body>
+
+</html>
