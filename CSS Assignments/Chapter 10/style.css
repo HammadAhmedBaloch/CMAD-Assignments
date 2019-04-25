@@ -1,0 +1,33 @@
+#heading-top{
+    color: #0A8BFD;
+}
+
+.sub-heading{
+    color: #0A8BFD;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+
+.heading{
+    color: #0A8BFD;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 5px;
+}
+
+h3{
+    background-color: #D2D5D7  ;
+}
+
+h6{
+    font-size: 15px;
+
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#imp{
+    color: #FF0000;  
+}

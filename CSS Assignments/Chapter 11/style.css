@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(129, 183, 206, 0.356);
+    word-spacing: 2px
+}
+
+#logo{
+    height: 62px;
+}
+
+#heading-1{
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: gray;
+    font-family: monospace;
+    font-size: 21px; 
+}
+
+    color: rgba(35, 16, 209, 0.774);
+h2{
+}
+
+.div-2{
+    background-color: rgba(155, 151, 151, 0.397);
+    
+}
+
+.div-3{
+    background-color: rgb(255, 255, 255);
+}
+
+.note{
+    font-style: italic;
+    color: rgb(245, 174, 41);
+    word-spacing: 7px;
+}
+
+footer{
+    color:   rgba(35, 16, 209, 0.774);
+}
