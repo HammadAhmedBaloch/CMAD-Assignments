@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>FORM</h1>
+    <form class="form-1">
+        <table>
+            <tr>
+                <td> User Name:</td>
+                <td> <input type="text" name="u_name" placeholder="Name"></td>
+            </tr>
+
+            <tr>
+                <td> Password: </td>
+                <td><input type="password" name="u_password" placeholder="password"></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name=u_date_of_birth></td>
+            </tr>
+
+            <tr>
+
+                <td>Web URL:</td>
+                <td> <input type="text" name="u_website" placeholder="www.web.com"></td>
+            </tr>
+
+            <tr>
+                <td> Address:</td>
+                <td> <input type="text" u_address></td>
+            </tr>
+
+            <tr>
+                <td> Ciity:</td>
+                <td> <select name="Ciity">
+                        <option value="Karachi">Karachi</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Islamabad">Islamabad</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td> <input type="text" name="u_state"></td>
+            </tr>
+            <tr>
+                <td>Zip Code:</td>
+                <td> <input type="number" name="u_zip_code"></td>
+            </tr>
+
+            <tr>
+                <td>Magazine:</td>
+                <td> <select name="Magazines" size="3" multiple="multiple">
+                        <option value="Newsweek">Newsweek</option>
+                        <option value="Time">Time</option>
+                        <option value="Fortune">Fortune</option>
+                        <option value="TV Guide">TV Guide</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <fieldset>
+                        <legend>Contact Details</legend>
+                        Email: <br> <input type="text"><br>
+                        Mobile: <br> <input type="number"> <br>
+                        Telephone: <br> <input type="number">
+
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="comments">Additional Comments:</label>
+                    <textarea name=Comments id="comments" cols="40" rows="5"></textarea>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Upload your profile picture:
+                    <input type="file" name="u_pic">
+                    <input type="submit" value="Upload"></td>
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="submit" name="u_order" value="Send Your Order"></td>
+            </tr>
+            <tr>
+                <td>
+                    Email Address:
+                    <input type="email" name="u_email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Subscription:
+                    <input type="radio" value="1 year"> 1 year
+                    <input type="radio">2 year
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox">
+                    Yes! Put me on the list!
+                </td>
+            </tr>
+            <tr>
+                <td><input type="image" src="./image/subscribe.jpeg" width="100" height="40"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
